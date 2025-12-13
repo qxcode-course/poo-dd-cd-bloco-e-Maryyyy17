@@ -1,0 +1,104 @@
+{
+    "patches": [
+        {
+            "label": "2025-12-12_18-07-59",
+            "content": "@@ -1,8 +1,28 @@\n+@@ -1,476 +1,36 @@%0A-\n from abc\n@@ -48,17 +48,19 @@\n ctmethod\n-%0A\n+%250A\n class An\n@@ -61,25 +61,27 @@\n ass Animal :\n-%0A\n+%250A\n     def __in\n@@ -96,33 +96,35 @@\n f, name : str) :\n-%0A\n+%250A\n         self.__n\n@@ -135,26 +135,30 @@\n : str = name\n-%0A%0A\n+%250A%250A\n     def apre\n@@ -173,32 +173,36 @@\n ome (self) -\n-%3E\n+%253E\n  str :\n-%0A\n+%250A\n         retu\n@@ -205,17 +205,19 @@\n return f\n-%22\n+%2522\n Eu sou u\n@@ -225,9 +225,11 @@\n (a) \n-%7B\n+%257B\n self\n@@ -239,12 +239,20 @@\n name\n-%7D%22%0A%0A\n+%257D%2522%250A%250A\n     \n@@ -275,16 +275,20 @@\n f) -\n-%3E\n+%253E\n  str :\n-%0A\n+%250A\n     \n@@ -309,18 +309,22 @@\n f.__name\n-%0A%0A\n+%250A%250A\n     def \n@@ -352,17 +352,19 @@\n  str ) :\n-%0A\n+%250A\n         \n@@ -383,18 +383,22 @@\n _ = nome\n-%0A%0A\n+%250A%250A\n     @abs\n@@ -400,33 +400,35 @@\n  @abstractmethod\n-%0A\n+%250A\n     def mover(se\n@@ -424,33 +424,35 @@\n ef mover(self) :\n-%0A\n+%250A\n         pass%0A%0A  \n@@ -447,18 +447,22 @@\n     pass\n-%0A%0A\n+%250A%250A\n     @abs\n@@ -472,17 +472,19 @@\n ctmethod\n-%0A\n+%250A\n     def \n@@ -492,33 +492,35 @@\n azer_som(self) :\n-%0A\n+%250A\n         pass%0A%0Acl\n@@ -515,18 +515,22 @@\n     pass\n-%0A%0A\n+%250A%250A\n class Le\n@@ -540,37 +540,87 @@\n nimal) :\n-%0A    def __init__(sel\n+%250A%0A+@@ -927,491 +927,4 @@%250A l) :%250A-%25250A%0A     %0A@@ -53,33 +53,35 @@%0A \n f, name \n@@ -620,32 +620,45 @@\n , name : str) :%0A\n+-%250A%0A+%25250A%0A \n         super().\n@@ -657,32 +657,51 @@\n super().\n-__init__(name)%0A%0A\n+%0A@@ -98,510 +98,59 @@%0A ame)%0A-%250A%250A\n     def \n@@ -709,33 +709,35 @@\n azer_som(self) :\n-%0A\n+%250A\n         print(%22R\n@@ -738,17 +738,19 @@\n int(\n-%22\n+%2522\n ROARRRRR\n %22)%0A%0A\n@@ -745,20 +745,26 @@\n ROARRRRR\n-%22)%0A%0A\n+%2522)%250A%250A\n     def \n@@ -768,33 +768,35 @@\n ef mover(self) :\n-%0A\n+%250A\n         print(%22T\n@@ -793,17 +793,19 @@\n   print(\n-%22\n+%2522\n TUM - TU\n@@ -835,20 +835,26 @@\n  SELVA!!\n-%22)%0A%0A\n+%2522)%250A%250A\n class El\n@@ -861,33 +861,35 @@\n ephant(Animal) :\n-%0A\n+%250A\n     def __init__\n@@ -900,33 +900,35 @@\n f, name : str) :\n-%0A\n+%250A\n         super()_\n@@ -932,34 +932,38 @@\n ()__init__(name)\n-%0A%0A\n+%250A%250A\n     def fazer_so\n@@ -963,33 +963,35 @@\n azer_som(self) :\n-%0A\n+%250A\n         print(%22F\n@@ -988,17 +988,19 @@\n   print(\n-%22\n+%2522\n FUMMMMMM\n@@ -1001,20 +1001,26 @@\n MMMMMMMM\n-%22)%0A%0A\n+%2522)%250A%250A\n     def \n@@ -1024,33 +1024,35 @@\n ef mover(self) :\n-%0A\n+%250A\n         print(%22B\n@@ -1049,17 +1049,19 @@\n   print(\n-%22\n+%2522\n BUM - BU\n@@ -1098,20 +1098,26 @@\n SELVA!!!\n-%22)%0A%0A\n+%2522)%250A%250A\n class Sn\n@@ -1125,25 +1125,27 @@\n ke(Animal) :\n-%0A\n+%250A\n     def __in\n@@ -1168,17 +1168,19 @@\n : str) :\n-%0A\n+%250A\n         \n@@ -1201,18 +1201,22 @@\n __(name)\n-%0A%0A\n+%250A%250A\n     def \n@@ -1224,33 +1224,35 @@\n azer_som(self) :\n-%0A\n+%250A\n         print(%22s\n@@ -1253,381 +1253,909 @@\n int(\n-%22sssssssssssssssss%22)%0A\n+%2522%0A+%25250A%25250A    def fazer_som(self) :%25250A        print(%252522%0A ssss%0A@@ -162,20 +162,26 @@%0A ssssssss%0A-%2522)%250A%250A%0A+%252522)%25250A%25250A\n %0A    \n+ \n def \n-mover(self) :%0A        print(%22ssssssssssssssss. a cobra rasteja pela selva!!!!%22)%0A%0A    def apresentar_animal(animal : Animal) :%0A        animal.apresentar_Nome()%0A        animal.fazer_som()%0A        animal.mover()%0A%0A    listaAnimal : list%5BAnimal%5D = %5BLeo(%22Simba%22), Elephant(%22Dumbo%22), Snake(%22DJ%22)%5D%0A    for i in listaAnimal :%0A        apresentar_animal(i)%0A\n+%0A@@ -193,17 +193,19 @@%0A (self) :%0A-%250A%0A+%25250A%0A         %0A@@ -210,17 +210,19 @@%0A   print(%0A-%2522%0A+%252522%0A ssssssss%0A@@ -265,12 +265,18 @@%0A !!!!%0A-%2522)%250A%250A%0A+%252522)%25250A%25250A%0A     %0A@@ -315,17 +315,19 @@%0A nimal) :%0A-%250A%0A+%25250A%0A         %0A@@ -350,17 +350,19 @@%0A r_Nome()%0A-%250A%0A+%25250A%0A         %0A@@ -379,17 +379,19 @@%0A er_som()%0A-%250A%0A+%25250A%0A         %0A@@ -404,18 +404,22 @@%0A .mover()%0A-%250A%250A%0A+%25250A%25250A%0A     list%0A@@ -436,31 +436,41 @@%0A list%0A-%255B%0A+%25255B%0A Animal%0A-%255D = %255B%0A+%25255D = %25255B%0A Leo(%0A-%2522%0A+%252522%0A Simba%0A-%2522%0A+%252522%0A ), E%0A@@ -481,15 +481,19 @@%0A ant(%0A-%2522%0A+%252522%0A Dumbo%0A-%2522%0A+%252522%0A ), S%0A@@ -501,15 +501,23 @@%0A ake(%0A-%2522DJ%2522)%255D%250A%0A+%252522DJ%252522)%25255D%25250A%0A     %0A@@ -538,17 +538,19 @@%0A Animal :%0A-%250A%0A+%25250A%0A         %0A@@ -569,10 +569,15 @@%0A nimal(i)%0A-%250A%0A+%25250A%25250A%0A %250A\n %0A\n",
+            "lines": "91"
+        },
+        {
+            "label": "2025-12-12_18-12-45",
+            "content": "@@ -52,22 +52,24 @@\n     def \n+_\n _init_\n+_\n (self, n\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_18-13-12",
+            "content": "@@ -734,33 +734,32 @@\n %0A        super()\n-.\n __init__(name)%0A%0A\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_18-13-39",
+            "content": "@@ -1143,16 +1143,20 @@\n !!!!%22)%0A%0A\n+    \n def apre\n@@ -1272,16 +1272,20 @@\n over()%0A%0A\n+    \n listaAni\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_18-14-49",
+            "content": "@@ -1367,24 +1367,28 @@\n staAnimal :%0A\n+    \n     apresent\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_18-15-13",
+            "content": "@@ -1344,16 +1344,20 @@\n (%22DJ%22)%5D%0A\n+    \n for i in\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_18-15-26",
+            "content": "@@ -33,21 +33,439 @@\n hod%0A\n-%0A\n class \n+Animal :%0A    def _init_(self, name : str) :%0A        self.__name : str = name%0A%0A    def apresentar_Nome (self) -%3E str :%0A        return f%22Eu sou um(a) %7Bself.__name%7D%22%0A%0A    def getName (self) -%3E str :%0A        return self.__name%0A%0A    def setName (self, nome : str ) :%0A        self.__init__ = nome%0A%0A    @abstractmethod%0A    def mover(self) :%0A        pass%0A%0A    @abstractmethod%0A    def fazer_som(self) :%0A        pass%0A%0Aclass Leo(\n Animal\n+)\n  :%0A \n@@ -497,9 +497,904 @@\n e : str)\n+ :%0A        super().__init__(name)%0A%0A    def fazer_som(self) :%0A        print(%22ROARRRRR%22)%0A%0A    def mover(self) :%0A        print(%22TUM - TUM - TUM. O LEAO ANDA NA SELVA!!%22)%0A%0Aclass Elephant(Animal) :%0A    def __init__(self, name : str) :%0A        super().__init__(name)%0A%0A    def fazer_som(self) :%0A        print(%22FUMMMMMMMM%22)%0A%0A    def mover(self) :%0A        print(%22BUM - BUM - BUM. O ELEFANTE ANDA PELA SELVA!!!%22)%0A%0Aclass Snake(Animal) :%0A    def __init__(self, name : str) :%0A        super().__init__(name)%0A%0A    def fazer_som(self) :%0A        print(%22sssssssssssssssss%22)%0A%0A    def mover(self) :%0A        print(%22ssssssssssssssss. a cobra rasteja pela selva!!!!%22)%0A%0Adef apresentar_animal(animal : Animal) :%0A        animal.apresentar_Nome()%0A        animal.fazer_som()%0A        animal.mover()%0A%0AlistaAnimal : list%5BAnimal%5D = %5BLeo(%22Simba%22), Elephant(%22Dumbo%22), Snake(%22DJ%22)%5D%0Afor i in listaAnimal :%0A    apresentar_animal(i)%0A\n %0A\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_19-28-50",
+            "content": "@@ -79,11 +79,9 @@\n e : str)\n- :\n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-12-12_19-28-57",
+            "content": "@@ -86,1214 +86,4 @@\n ) :%0A\n-        self.__name : str = name%0A%0A    def mostrar_Nome (self) -%3E str :%0A        return f%22Eu sou um(a) %7Bself.__name%7D%22%0A%0A    def getName (self) -%3E str :%0A        return self.__name%0A%0A    def setName (self, nome : str) :%0A        self.__name = nome%0A%0A    @abstractmethod%0A    def fazer_som (self) :%0A        pass%0A%0A    @abstractmethod%0A    def mover (self) :%0A        pass%0A%0Aclass Lion (Animal) :%0A    def __init__(self, name : str) :%0A        super().__init__(name)%0A%0A    def fazer_som(self)%0A    print(%22ROARRRRRR%22)%0A%0A    def mover(self) :%0A        print(%22TUM - TUM - TUM%22)%0A%0Aclass Elephant (Animal) :%0A    def __init__(self, name : str) :%0A        super().__init__(name)%0A%0A    def fazer_som(self) :%0A        print(%22FUMMMMMMMM%22)%0A%0A    def mover (self) :%0A        print(%22BUM - BUM - BUM%22)%0A%0Aclass Snake (Animal) :%0A    def __init__(self, name : str) :%0A        super().__init__(name)%0A%0A    def fazer_som(self) :%0A        print(%22SSSSSSSSSS%22)%0A%0A    def mover (self) :%0A        print(%22SSSSSSSSSSSSS%22)%0A%0Adef apresentar_animal (animal : Animal) :%0A    print animal.apresentar_animal()%0A    animal.fazer_som()%0A    animal.mover()%0A%0AlistaAnimal : list%5BAnimal%5D = %5BLion(%22Simba%22), Elephant(%22Dumbo%22), Snake(%22DJ%22)%5D%0Afor i in listaAnimal :%0A    apresentar_animal(i)\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-12-12_19-39-51",
+            "content": "@@ -552,26 +552,24 @@\n er_som(self)\n- :\n %0A    print(%22\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_19-40-06",
+            "content": "@@ -551,36 +551,32 @@\n zer_som(self) :%0A\n-    \n     print(%22ROARR\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_19-40-22",
+            "content": "@@ -1104,17 +1104,16 @@\n   print \n-(\n animal.a\n@@ -1130,17 +1130,16 @@\n animal()\n-)\n %0A    ani\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_19-40-35",
+            "content": "@@ -1094,24 +1094,31 @@\n imal) :%0A    \n+print (\n animal.apres\n@@ -1131,16 +1131,17 @@\n animal()\n+)\n %0A    ani\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_19-40-47",
+            "content": "@@ -1122,16 +1122,18 @@\n r_animal\n+()\n %0A    ani\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_19-40-54",
+            "content": "@@ -1098,17 +1098,17 @@\n ) :%0A    \n-A\n+a\n nimal.ap\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_19-41-06",
+            "content": "@@ -1123,25 +1123,25 @@\n _animal%0A    \n-A\n+a\n nimal.fazer_\n@@ -1146,25 +1146,25 @@\n r_som()%0A    \n-A\n+a\n nimal.mover(\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_19-41-25",
+            "content": "@@ -1105,28 +1105,33 @@\n  Animal.\n-mostrar_Nome\n+apresentar_animal\n %0A    Ani\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_19-41-50",
+            "content": "@@ -1122,17 +1122,17 @@\n ome%0A    \n-a\n+A\n nimal.fa\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_19-42-06",
+            "content": "@@ -1141,25 +1141,25 @@\n r_som()%0A    \n-a\n+A\n nimal.mover(\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-12-12_19-42-17",
+            "content": "from abc import ABC, abstractmethod\n\nclass Animal :\n    def __init__(self, name : str) :\n        self.__name : str = name\n\n    def mostrar_Nome (self) -> str :\n        return f\"Eu sou um(a) {self.__name}\"\n\n    def getName (self) -> str :\n        return self.__name\n\n    def setName (self, nome : str) :\n        self.__name = nome\n\n    @abstractmethod\n    def fazer_som (self) :\n        pass\n\n    @abstractmethod\n    def mover (self) :\n        pass\n\nclass Lion (Animal) :\n    def __init__(self, name : str) :\n        super().__init__(name)\n\n    def fazer_som(self) :\n        print(\"ROARRRRRR\")\n\n    def mover(self) :\n        print(\"TUM - TUM - TUM\")\n\nclass Elephant (Animal) :\n    def __init__(self, name : str) :\n        super().__init__(name)\n\n    def fazer_som(self) :\n        print(\"FUMMMMMMMM\")\n\n    def mover (self) :\n        print(\"BUM - BUM - BUM\")\n\nclass Snake (Animal) :\n    def __init__(self, name : str) :\n        super().__init__(name)\n\n    def fazer_som(self) :\n        print(\"SSSSSSSSSS\")\n\n    def mover (self) :\n        print(\"SSSSSSSSSSSSS\")\n\ndef apresentar_animal (animal : Animal) :\n    Animal.mostrar_Nome\n    animal.fazer_som()\n    animal.mover()\n\nlistaAnimal : list[Animal] = [Lion(\"Simba\"), Elephant(\"Dumbo\"), Snake(\"DJ\")]\nfor i in listaAnimal :\n    apresentar_animal(i)",
+            "lines": "61"
+        }
+    ]
+}
