@@ -48,10 +48,9 @@ class Pix (Pagamento) :
         super().__init__(valor, descricao)
         self.chave : str = chave
         self.banco : str = banco
-
+    
     def processar(self) :
         print(f" PIX enviado via {self.banco} usando chave {self.chave}")
-
 
 class Boleto (Pagamento) :
         def __init__(self, valor : float, descricao : str, codigoBarra : str, dataVencimento :int ) :
@@ -69,7 +68,8 @@ class Boleto (Pagamento) :
             if self.getVencimento() :
                 print("Boleto gerado. Aguardando pagamento...")
 
-pagamento = [Pix(150, "Camisa esportiva", "email@ex.com", "Banco XPTO",), CartaoDeCredito( "1234 5678 9101 1121", "cliente M", 500,400, "Tenis esportivo"), Boleto(89.90, "livro de Python", "123456789000", 20250110)]
+pagamento = [Pix(150, "Camisa esportiva", "email@ex.com", "Banco XPTO",), CartaoDeCredito("1234 5678 9101 1121","cliente M", 500, 400, "Tenis esportivo"), Boleto(89.90, "livro de Python", "123456789000", 20250110)]
 
 processar_pagamento(pagamento)
+
 
