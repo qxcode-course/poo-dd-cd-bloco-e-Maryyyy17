@@ -23,7 +23,7 @@ class Veiculo (ABC) :
         pass
 
 class Estacionamento(Veiculo) :
-    def __init__(self, id : str, tipo : str, horaEntrada : int, hor) :
+    def __init__(self, id : str, tipo : str, horaEntrada : int,) :
         super().__init__(id, tipo, horaEntrada)
         self.veiculo : list[Veiculo] = []
         self.horaAtual : int = 0
